@@ -9,7 +9,7 @@ export function animationProgressBar() {
       console.log($bar.value);
       let value = 0;
 
-      // Utiliza un intervalo para incrementar el valor gradualmente
+      // Utiliza un intervalo paraincrementar el valor gradualmente
       const interval = setInterval(() => {
         value += 1;
         $bar.value = value;
